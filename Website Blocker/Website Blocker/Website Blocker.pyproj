@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3610d0de-c1f4-48e4-bf5b-efe6b97f5765</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Website_Blocker.py</StartupFile>
+    <StartupFile>Website_Blocker.pyw</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Website_Blocker.py" />
+    <Compile Include="Website_Blocker.pyw" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
