@@ -7,3 +7,6 @@ This project asks the user for a word and them compares the word to a json file 
 
 Project 2: Website Blocker
 This project will block you from accessing certain sites during working hours to help keep you productive. It does this by adding the blocked websites to the host file with the local IP address so that the website cannot be accessed. If you are outside working hours then the program will remove the websites from the host file. The program can be set to run in the background through the Task Scheduler Application.
+
+Project 3: Web Scraper
+This project is still underway, but in the end it will be able to access a website and scrape selected data from that website to then be displayed.
