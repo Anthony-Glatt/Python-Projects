@@ -1,10 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 
-r = requests.get("https://www.century21.com/for-sale-homes/Portland-OR-179c")
+#Search espn for college basketball scores
+webpage = "http://www.espn.com/mens-college-basketball/scoreboard/_/date/20181106"
+
+r = requests.get(webpage)
 c = r.content
 
 soup = BeautifulSoup(c, "html.parser")
-print(soup)
-all = soup.find_all("div", {"class":"sr-card__price"})
-print(all)
+#print(soup)
+
+away = soup.find_all("div", {"id": "events"})
+print(away)
